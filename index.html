@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navigation">
+      <p class="welcome__message">Login, to get Started</p>
+      <img src="./logo.png" class="logo" />
+      <form class="input__form__login input__form">
+        <input
+          type="text"
+          minlength="1"
+          placeholder="user"
+          class="input--user input--form input--form--user"
+        />
+        <input
+          type="password"
+          placeholder="PIN"
+          minlength="1"
+          maxlength="4"
+          class="input--PIN input--form input--form--PIN"
+        />
+        <button class="form__btn form__btn--login">&rarr;</button>
+      </form>
+    </nav>
+
+    <!-- MAIN SECTION -->
+    <main class="app">
+      <section class="balance__section">
+        <div>
+          <p class="balance__label">Current balance</p>
+          <p class="balance__date">As of 05/03/2037</p>
+        </div>
+        <p class="account__balance">0000€</p>
+      </section>
+
+      <!-- MOVEMENTS -->
+      <section class="movements__section">
+        <div class="movements__row">
+          <div class="movements__type movements__type--deposit">1 deposit</div>
+          <div class="movements__value">4000€</div>
+        </div>
+
+        <div class="movements__row">
+          <div class="movements__type movements__type--withdrawal">
+            1 withdrawal
+          </div>
+          <div class="movements__value">0000€</div>
+        </div>
+      </section>
+
+      <!-- TRANFER MONEY -->
+      <section class="operation operation--transfer">
+        <h2>Transfer money</h2>
+        <form class="form form--transfer">
+          <input type="text" class="input--form form__input--to" />
+          <input type="number" class="input--form form__input--amount" />
+          <button class="form__btn form__btn--transfer">&rarr;</button>
+          <label class="form__label">Transfer to</label>
+          <label class="form__label">Amount</label>
+        </form>
+      </section>
+
+      <!-- OPERATION: LOAN -->
+      <section class="operation operation--loan">
+        <h2>Request Loan</h2>
+        <form class="form form--loan">
+          <input type="number" class="input--form form__input--loan" />
+          <button class="form__btn form__btn--loan">&rarr;</button>
+          <label class="form__label form__label--loan">Amount</label>
+        </form>
+      </section>
+
+      <section class="operation operation--close">
+        <h2>Close account</h2>
+        <form class="form form--close">
+          <input type="text" class="input--form form__input--user" />
+          <input type="password" class="input--form form__input--pin" />
+          <button class="form__btn form__btn--close">&rarr;</button>
+          <label class="form__label">Confirm user</label>
+          <label class="form__label">Confirm pin</label>
+        </form>
+      </section>
+
+      <section class="summary">
+        <p class="summary__label">In</p>
+        <p class="summary__value summary__value--in">0000€</p>
+        <p class="summary__label">Out</p>
+        <p class="summary__value summary__value--out">0000€</p>
+        <p class="summary__label">Interest</p>
+        <p class="summary__value summary__value--interest">0000€</p>
+        <button class="btn--sort">&downarrow;</button>
+        <p>SORT</p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
