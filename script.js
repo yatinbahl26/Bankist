@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 'use strict';
+=======
+'use strict'; 
+>>>>>>> 5c92c4cb1ad6477b1fea4ac78e00212eae03bdc4
 
 // Data
 const account1 = {
