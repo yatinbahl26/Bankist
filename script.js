@@ -1,36 +1,30 @@
-<<<<<<< HEAD
-'use strict';
-=======
-'use strict'; 
->>>>>>> 5c92c4cb1ad6477b1fea4ac78e00212eae03bdc4
-
 // Data
 const account1 = {
-  owner: 'Jonas Schmedtmann',
+  owner: 'Yatin Bahl',
   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
   interestRate: 1.2, // %
-  pin: 1111,
+  pin: 2611,
 };
 
 const account2 = {
   owner: 'Jagmeet Kaur',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
-  pin: 2222,
+  pin: 0o301,
 };
 
 const account3 = {
-  owner: 'Steven Thomas Williams',
+  owner: 'Jahnvi Sharma',
   movements: [200, -200, 340, -300, -20, 50, 400, -460],
   interestRate: 0.7,
-  pin: 3333,
+  pin: 2603,
 };
 
 const account4 = {
-  owner: 'Sarah Smith',
+  owner: 'Manav Verma',
   movements: [430, 1000, 700, 50, 90],
   interestRate: 1,
-  pin: 4444,
+  pin: 1105,
 };
 
 const accounts = [account1, account2, account3, account4];
