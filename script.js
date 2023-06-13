@@ -10,7 +10,7 @@ const account2 = {
   owner: 'Jagmeet Kaur',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
-  pin: 0o301,
+  pin: 0301,
 };
 
 const account3 = {
