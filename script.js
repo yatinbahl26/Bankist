@@ -1,7 +1,7 @@
 'use strict';
 
 const account1 = {
-  owner: 'Yatin Bahl',
+  owner: 'Jonas Schmedtmann',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
   pin: 1111,
@@ -21,7 +21,7 @@ const account1 = {
 };
 
 const account2 = {
-  owner: 'Jagmeet Kaur',
+  owner: 'Jessica Davis',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.5,
   pin: 2222,
