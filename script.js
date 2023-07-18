@@ -274,7 +274,12 @@ btnTransfer.addEventListener('click', function (e) {
     receiverAcc.movementsDates.push(new Date().toISOString());
 
     // Update UI
-    updateUI(currentAccount);
+    // updateUI(currentAccount);
+
+    // Update UI
+    setTimeout(() => {
+      updateUI(currentAccount);
+    }, 1000);
 
     // Reset timer
     clearInterval(timer);
@@ -295,8 +300,13 @@ btnLoan.addEventListener('click', function (e) {
       // Add loan date
       currentAccount.movementsDates.push(new Date().toISOString());
 
+      // // Update UI
+      // updateUI(currentAccount);
+
       // Update UI
-      updateUI(currentAccount);
+      setTimeout(() => {
+        updateUI(currentAccount);
+      }, 1000);
 
       // Reset timer
       clearInterval(timer);
